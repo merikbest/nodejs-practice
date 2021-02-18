@@ -27,8 +27,3 @@ dispatcher.subscribe("hello", data => {
 });
 
 dispatcher.dispatch("hello", {hello: "world"})
-
-
-
-
-
